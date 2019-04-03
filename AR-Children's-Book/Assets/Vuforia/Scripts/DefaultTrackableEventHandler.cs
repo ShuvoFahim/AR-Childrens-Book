@@ -23,6 +23,11 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     protected TrackableBehaviour.Status m_PreviousStatus;
     protected TrackableBehaviour.Status m_NewStatus;
 
+
+    /// <summary>
+    /// Englisgh Aplhabets
+    /// </summary>
+
     protected GameObject a;
     protected GameObject b;
     protected GameObject c;
@@ -49,6 +54,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     protected GameObject x;
     protected GameObject y;
     protected GameObject z;
+
+    /// <summary>
+    /// Bangla Alphabets
+    /// </summary>
 
     protected GameObject Bangla1;
     protected GameObject Bangla2;
@@ -100,6 +109,12 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     protected GameObject Bangla48;
     protected GameObject Bangla49;
     protected GameObject Bangla50;
+
+    protected GameObject Apple;
+    protected GameObject Mango;
+    protected GameObject strawberry;
+    protected GameObject Banana;
+    protected GameObject Orange;
 
     #endregion // PROTECTED_MEMBER_VARIABLES
 
@@ -186,6 +201,13 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         Bangla48 = GameObject.Find("b37");
         Bangla49 = GameObject.Find("b38");
         Bangla50 = GameObject.Find("b39");
+
+        Apple = GameObject.Find("Apple");
+        Orange = GameObject.Find("Orange");
+        strawberry = GameObject.Find("strawberry");
+        Banana = GameObject.Find("Banana");
+        Mango = GameObject.Find("mango");
+
 
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour)
@@ -563,6 +585,28 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
 
 
+        if (mTrackableBehaviour.Trackable.Name == "f1")
+        {
+            strawberry.GetComponent<AudioSource>().Play();
+        }
+        if (mTrackableBehaviour.Trackable.Name == "f2")
+        {
+            Banana.GetComponent<AudioSource>().Play();
+        }
+        if (mTrackableBehaviour.Trackable.Name == "f3")
+        {
+            Orange.GetComponent<AudioSource>().Play();
+        }
+        if (mTrackableBehaviour.Trackable.Name == "f4")
+        {
+            Mango.GetComponent<AudioSource>().Play();
+        }
+        if (mTrackableBehaviour.Trackable.Name == "f5")
+        {
+           Apple.GetComponent<AudioSource>().Play();
+        }
+
+
 
 
 
@@ -669,7 +713,12 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         Bangla48.GetComponent<AudioSource>().Stop();
         Bangla49.GetComponent<AudioSource>().Stop();
         Bangla50.GetComponent<AudioSource>().Stop();
-       
+
+        strawberry.GetComponent<AudioSource>().Stop();
+        Mango.GetComponent<AudioSource>().Stop();
+        Apple.GetComponent<AudioSource>().Stop();
+        Orange.GetComponent<AudioSource>().Stop();
+        Banana.GetComponent<AudioSource>().Stop();
     }
 
     #endregion // PROTECTED_METHODS
