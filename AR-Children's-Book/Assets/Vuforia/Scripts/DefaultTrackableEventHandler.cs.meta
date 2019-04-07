@@ -1,10 +1,90 @@
 fileFormatVersion: 2
 guid: 5a917f0af64a6423093132dab321c15f
-timeCreated: 1493021435
-licenseType: Pro
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - a: {instanceID: 0}
+  - b: {instanceID: 0}
+  - c: {instanceID: 0}
+  - d: {instanceID: 0}
+  - e: {instanceID: 0}
+  - f: {instanceID: 0}
+  - g: {instanceID: 0}
+  - h: {instanceID: 0}
+  - i: {instanceID: 0}
+  - j: {instanceID: 0}
+  - k: {instanceID: 0}
+  - l: {instanceID: 0}
+  - m: {instanceID: 0}
+  - n: {instanceID: 0}
+  - o: {instanceID: 0}
+  - p: {instanceID: 0}
+  - q: {instanceID: 0}
+  - r: {instanceID: 0}
+  - s: {instanceID: 0}
+  - t: {instanceID: 0}
+  - u: {instanceID: 0}
+  - v: {instanceID: 0}
+  - w: {instanceID: 0}
+  - x: {instanceID: 0}
+  - y: {instanceID: 0}
+  - z: {instanceID: 0}
+  - Bangla1: {instanceID: 0}
+  - Bangla2: {instanceID: 0}
+  - Bangla3: {instanceID: 0}
+  - Bangla4: {instanceID: 0}
+  - Bangla5: {instanceID: 0}
+  - Bangla6: {instanceID: 0}
+  - Bangla7: {instanceID: 0}
+  - Bangla8: {instanceID: 0}
+  - Bangla9: {instanceID: 0}
+  - Bangla10: {instanceID: 0}
+  - Bangla11: {instanceID: 0}
+  - Bangla12: {instanceID: 0}
+  - Bangla13: {instanceID: 0}
+  - Bangla14: {instanceID: 0}
+  - Bangla15: {instanceID: 0}
+  - Bangla16: {instanceID: 0}
+  - Bangla17: {instanceID: 0}
+  - Bangla18: {instanceID: 0}
+  - Bangla19: {instanceID: 0}
+  - Bangla20: {instanceID: 0}
+  - Bangla21: {instanceID: 0}
+  - Bangla22: {instanceID: 0}
+  - Bangla23: {instanceID: 0}
+  - Bangla24: {instanceID: 0}
+  - Bangla25: {instanceID: 0}
+  - Bangla26: {instanceID: 0}
+  - Bangla27: {instanceID: 0}
+  - Bangla28: {instanceID: 0}
+  - Bangla29: {instanceID: 0}
+  - Bangla30: {instanceID: 0}
+  - Bangla31: {instanceID: 0}
+  - Bangla32: {instanceID: 0}
+  - Bangla33: {instanceID: 0}
+  - Bangla34: {instanceID: 0}
+  - Bangla35: {instanceID: 0}
+  - Bangla36: {instanceID: 0}
+  - Bangla37: {instanceID: 0}
+  - Bangla38: {instanceID: 0}
+  - Bangla39: {instanceID: 0}
+  - Bangla40: {instanceID: 0}
+  - Bangla41: {instanceID: 0}
+  - Bangla42: {instanceID: 0}
+  - Bangla43: {instanceID: 0}
+  - Bangla44: {instanceID: 0}
+  - Bangla45: {instanceID: 0}
+  - Bangla46: {instanceID: 0}
+  - Bangla47: {instanceID: 0}
+  - Bangla48: {instanceID: 0}
+  - Bangla49: {instanceID: 0}
+  - Bangla50: {instanceID: 0}
+  - Apple: {instanceID: 0}
+  - f2: {instanceID: 0}
+  - strawberry: {instanceID: 0}
+  - Banana: {instanceID: 0}
+  - Orange: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

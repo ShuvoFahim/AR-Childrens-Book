@@ -7,7 +7,11 @@ Confidential and Proprietary - Protected under copyright and other laws.
 ==============================================================================*/
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using Vuforia;
+
+
 
 /// <summary>
 /// A custom handler that implements the ITrackableEventHandler interface.
@@ -24,103 +28,99 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     protected TrackableBehaviour.Status m_NewStatus;
 
 
-    /// <summary>
-    /// Englisgh Aplhabets
-    /// </summary>
+    
+   
+    public GameObject a;
+    public GameObject b;
+    public GameObject c;
+    public GameObject d;
+    public GameObject e;
+    public GameObject f;
+    public GameObject g;
+    public GameObject h;
+    public GameObject i;
+    public GameObject j;
+    public GameObject k;
+    public GameObject l;
+    public GameObject m;
+    public GameObject n;
+    public GameObject o;
+    public GameObject p;
+    public GameObject q;
+    public GameObject r;
+    public GameObject s;
+    public GameObject t;
+    public GameObject u;
+    public GameObject v;
+    public GameObject w;
+    public GameObject x;
+    public GameObject y;
+    public GameObject z;
+    public GameObject Bangla1;
+    public GameObject Bangla2;
+    public GameObject Bangla3;
+    public GameObject Bangla4;
+    public GameObject Bangla5;
+    public GameObject Bangla6;
+    public GameObject Bangla7;
+    public GameObject Bangla8;
+    public GameObject Bangla9;
+    public GameObject Bangla10;
+    public GameObject Bangla11;
+    public GameObject Bangla12;
+    public GameObject Bangla13;
+    public GameObject Bangla14;
+    public GameObject Bangla15;
+    public GameObject Bangla16;
+    public GameObject Bangla17;
+    public GameObject Bangla18;
+    public GameObject Bangla19;
+    public GameObject Bangla20;
+    public GameObject Bangla21;
+    public GameObject Bangla22;
+    public GameObject Bangla23;
+    public GameObject Bangla24;
+    public GameObject Bangla25;
+    public GameObject Bangla26;
+    public GameObject Bangla27;
+    public GameObject Bangla28;
+    public GameObject Bangla29;
+    public GameObject Bangla30;
+    public GameObject Bangla31;
+    public GameObject Bangla32;
+    public GameObject Bangla33;
+    public GameObject Bangla34;
+    public GameObject Bangla35;
+    public GameObject Bangla36;
+    public GameObject Bangla37;
+    public GameObject Bangla38;
+    public GameObject Bangla39;
+    public GameObject Bangla40;
+    public GameObject Bangla41;
+    public GameObject Bangla42;
+    public GameObject Bangla43;
+    public GameObject Bangla44;
+    public GameObject Bangla45;
+    public GameObject Bangla46;
+    public GameObject Bangla47;
+    public GameObject Bangla48;
+    public GameObject Bangla49;
+    public GameObject Bangla50;
+    public GameObject Apple;
+    public GameObject f2;
+    public GameObject strawberry;
+    public GameObject Banana;
+    public GameObject Orange;
 
-    protected GameObject a;
-    protected GameObject b;
-    protected GameObject c;
-    protected GameObject d;
-    protected GameObject e;
-    protected GameObject f;
-    protected GameObject g;
-    protected GameObject h;
-    protected GameObject i;
-    protected GameObject j;
-    protected GameObject k;
-    protected GameObject l;
-    protected GameObject m;
-    protected GameObject n;
-    protected GameObject o;
-    protected GameObject p;
-    protected GameObject q;
-    protected GameObject r;
-    protected GameObject s;
-    protected GameObject t;
-    protected GameObject u;
-    protected GameObject v;
-    protected GameObject w;
-    protected GameObject x;
-    protected GameObject y;
-    protected GameObject z;
+    public Scene CurrentScene;
 
-    /// <summary>
-    /// Bangla Alphabets
-    /// </summary>
-
-    protected GameObject Bangla1;
-    protected GameObject Bangla2;
-    protected GameObject Bangla3;
-    protected GameObject Bangla4;
-    protected GameObject Bangla5;
-    protected GameObject Bangla6;
-    protected GameObject Bangla7;
-    protected GameObject Bangla8;
-    protected GameObject Bangla9;
-    protected GameObject Bangla10;
-    protected GameObject Bangla11;
-    protected GameObject Bangla12;
-    protected GameObject Bangla13;
-    protected GameObject Bangla14;
-    protected GameObject Bangla15;
-    protected GameObject Bangla16;
-    protected GameObject Bangla17;
-    protected GameObject Bangla18;
-    protected GameObject Bangla19;
-    protected GameObject Bangla20;
-    protected GameObject Bangla21;
-    protected GameObject Bangla22;
-    protected GameObject Bangla23;
-    protected GameObject Bangla24;
-    protected GameObject Bangla25;
-    protected GameObject Bangla26;
-    protected GameObject Bangla27;
-    protected GameObject Bangla28;
-    protected GameObject Bangla29;
-    protected GameObject Bangla30;
-    protected GameObject Bangla31;
-    protected GameObject Bangla32;
-    protected GameObject Bangla33;
-    protected GameObject Bangla34;
-    protected GameObject Bangla35;
-    protected GameObject Bangla36;
-    protected GameObject Bangla37;
-    protected GameObject Bangla38;
-    protected GameObject Bangla39;
-    protected GameObject Bangla40;
-    protected GameObject Bangla41;
-    protected GameObject Bangla42;
-    protected GameObject Bangla43;
-    protected GameObject Bangla44;
-    protected GameObject Bangla45;
-    protected GameObject Bangla46;
-    protected GameObject Bangla47;
-    protected GameObject Bangla48;
-    protected GameObject Bangla49;
-    protected GameObject Bangla50;
-
-    protected GameObject Apple;
-    protected GameObject Mango;
-    protected GameObject strawberry;
-    protected GameObject Banana;
-    protected GameObject Orange;
 
     #endregion // PROTECTED_MEMBER_VARIABLES
 
     #region UNITY_MONOBEHAVIOUR_METHODS
 
-    protected virtual void Start()
+
+    void Awake()
     {
         a = GameObject.Find("A");
         b = GameObject.Find("B");
@@ -148,8 +148,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         x = GameObject.Find("X");
         y = GameObject.Find("Y");
         z = GameObject.Find("Z");
-
-
         Bangla1 = GameObject.Find("1");
         Bangla2 = GameObject.Find("2");
         Bangla3 = GameObject.Find("3");
@@ -161,7 +159,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         Bangla9 = GameObject.Find("9");
         Bangla10 = GameObject.Find("10");
         Bangla11 = GameObject.Find("11");
-
         Bangla12 = GameObject.Find("b1");
         Bangla13 = GameObject.Find("b2");
         Bangla14 = GameObject.Find("b3");
@@ -201,12 +198,26 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         Bangla48 = GameObject.Find("b37");
         Bangla49 = GameObject.Find("b38");
         Bangla50 = GameObject.Find("b39");
-
         Apple = GameObject.Find("Apple");
         Orange = GameObject.Find("Orange");
         strawberry = GameObject.Find("strawberry");
         Banana = GameObject.Find("Banana");
-        Mango = GameObject.Find("mango");
+        f2 = GameObject.Find("mango");
+
+        
+
+
+    }
+    void Update() {
+
+        CurrentScene = SceneManager.GetActiveScene();
+
+
+    }
+
+    protected virtual void Start()
+    {
+       
 
 
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
@@ -241,13 +252,15 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         {
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
             OnTrackingFound();
+            
         }
         else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
                  newStatus == TrackableBehaviour.Status.NO_POSE)
         {
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
             OnTrackingLost();
-        }
+            
+             }
         else
         {
             // For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND
@@ -279,7 +292,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         foreach (var component in canvasComponents)
             component.enabled = true;
 
-        if (mTrackableBehaviour.Trackable.Name == "A-001") {
+        
+
+        if (mTrackableBehaviour.Trackable.Name == "A-001")
+        {
             a.GetComponent<AudioSource>().Play ();
         }
         if (mTrackableBehaviour.Trackable.Name == "B-001")
@@ -387,6 +403,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         {
             Bangla1.GetComponent<AudioSource>().Play();
         }
+
         if (mTrackableBehaviour.Trackable.Name == "A-2")
         {
             Bangla2.GetComponent<AudioSource>().Play();
@@ -599,7 +616,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         }
         if (mTrackableBehaviour.Trackable.Name == "f4")
         {
-            Mango.GetComponent<AudioSource>().Play();
+            f2.GetComponent<AudioSource>().Play();
         }
         if (mTrackableBehaviour.Trackable.Name == "f5")
         {
@@ -608,13 +625,14 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
 
 
-
+       
 
 
 
 
     }
 
+   
 
     protected virtual void OnTrackingLost()
     {
@@ -634,91 +652,102 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         foreach (var component in canvasComponents)
             component.enabled = false;
 
-        a.GetComponent<AudioSource>().Stop();
-        b.GetComponent<AudioSource>().Stop();
-        c.GetComponent<AudioSource>().Stop();
-        d.GetComponent<AudioSource>().Stop();
-        e.GetComponent<AudioSource>().Stop();
-        f.GetComponent<AudioSource>().Stop();
-        g.GetComponent<AudioSource>().Stop();
-        h.GetComponent<AudioSource>().Stop();
-        i.GetComponent<AudioSource>().Stop();
-        j.GetComponent<AudioSource>().Stop();
-        k.GetComponent<AudioSource>().Stop();
-        l.GetComponent<AudioSource>().Stop();
-        m.GetComponent<AudioSource>().Stop();
-        n.GetComponent<AudioSource>().Stop();
-        o.GetComponent<AudioSource>().Stop();
-        p.GetComponent<AudioSource>().Stop();
-        q.GetComponent<AudioSource>().Stop();
-        r.GetComponent<AudioSource>().Stop();
-        s.GetComponent<AudioSource>().Stop();
-        t.GetComponent<AudioSource>().Stop();
-        u.GetComponent<AudioSource>().Stop();
-        v.GetComponent<AudioSource>().Stop();
-        w.GetComponent<AudioSource>().Stop();
-        x.GetComponent<AudioSource>().Stop();
-        y.GetComponent<AudioSource>().Stop();
-        z.GetComponent<AudioSource>().Stop();
+        if (CurrentScene.name == "AtoZ")
+        {
+            a.GetComponent<AudioSource>().Stop();
+            b.GetComponent<AudioSource>().Stop();
+            c.GetComponent<AudioSource>().Stop();
+            d.GetComponent<AudioSource>().Stop();
+            e.GetComponent<AudioSource>().Stop();
+            f.GetComponent<AudioSource>().Stop();
+            g.GetComponent<AudioSource>().Stop();
+            h.GetComponent<AudioSource>().Stop();
+            i.GetComponent<AudioSource>().Stop();
+            j.GetComponent<AudioSource>().Stop();
+            k.GetComponent<AudioSource>().Stop();
+            l.GetComponent<AudioSource>().Stop();
+            m.GetComponent<AudioSource>().Stop();
+            n.GetComponent<AudioSource>().Stop();
+            o.GetComponent<AudioSource>().Stop();
+            p.GetComponent<AudioSource>().Stop();
+            q.GetComponent<AudioSource>().Stop();
+            r.GetComponent<AudioSource>().Stop();
+            s.GetComponent<AudioSource>().Stop();
+            t.GetComponent<AudioSource>().Stop();
+            u.GetComponent<AudioSource>().Stop();
+            v.GetComponent<AudioSource>().Stop();
+            w.GetComponent<AudioSource>().Stop();
+            x.GetComponent<AudioSource>().Stop();
+            y.GetComponent<AudioSource>().Stop();
+            z.GetComponent<AudioSource>().Stop();
+        }
+        if (CurrentScene.name == "BanglaAlphabets")
+        {
+            Bangla1.GetComponent<AudioSource>().Stop();
+            Bangla1.GetComponent<AudioSource>().Stop();
+            Bangla2.GetComponent<AudioSource>().Stop();
+            Bangla3.GetComponent<AudioSource>().Stop();
+            Bangla4.GetComponent<AudioSource>().Stop();
+            Bangla5.GetComponent<AudioSource>().Stop();
+            Bangla6.GetComponent<AudioSource>().Stop();
+            Bangla7.GetComponent<AudioSource>().Stop();
+            Bangla8.GetComponent<AudioSource>().Stop();
+            Bangla9.GetComponent<AudioSource>().Stop();
+            Bangla10.GetComponent<AudioSource>().Stop();
+            Bangla11.GetComponent<AudioSource>().Stop();
+            Bangla12.GetComponent<AudioSource>().Stop();
+            Bangla13.GetComponent<AudioSource>().Stop();
+            Bangla14.GetComponent<AudioSource>().Stop();
+            Bangla15.GetComponent<AudioSource>().Stop();
+            Bangla16.GetComponent<AudioSource>().Stop();
+            Bangla17.GetComponent<AudioSource>().Stop();
+            Bangla18.GetComponent<AudioSource>().Stop();
+            Bangla19.GetComponent<AudioSource>().Stop();
+            Bangla20.GetComponent<AudioSource>().Stop();
+            Bangla21.GetComponent<AudioSource>().Stop();
+            Bangla22.GetComponent<AudioSource>().Stop();
+            Bangla23.GetComponent<AudioSource>().Stop();
+            Bangla24.GetComponent<AudioSource>().Stop();
+            Bangla25.GetComponent<AudioSource>().Stop();
+            Bangla26.GetComponent<AudioSource>().Stop();
+            Bangla27.GetComponent<AudioSource>().Stop();
+            Bangla28.GetComponent<AudioSource>().Stop();
+            Bangla29.GetComponent<AudioSource>().Stop();
+            Bangla30.GetComponent<AudioSource>().Stop();
+            Bangla31.GetComponent<AudioSource>().Stop();
+            Bangla32.GetComponent<AudioSource>().Stop();
+            Bangla33.GetComponent<AudioSource>().Stop();
+            Bangla34.GetComponent<AudioSource>().Stop();
+            Bangla35.GetComponent<AudioSource>().Stop();
+            Bangla36.GetComponent<AudioSource>().Stop();
+            Bangla37.GetComponent<AudioSource>().Stop();
+            Bangla38.GetComponent<AudioSource>().Stop();
+            Bangla39.GetComponent<AudioSource>().Stop();
+            Bangla40.GetComponent<AudioSource>().Stop();
+            Bangla41.GetComponent<AudioSource>().Stop();
+            Bangla42.GetComponent<AudioSource>().Stop();
+            Bangla43.GetComponent<AudioSource>().Stop();
+            Bangla44.GetComponent<AudioSource>().Stop();
+            Bangla45.GetComponent<AudioSource>().Stop();
+            Bangla46.GetComponent<AudioSource>().Stop();
+            Bangla47.GetComponent<AudioSource>().Stop();
+            Bangla48.GetComponent<AudioSource>().Stop();
+            Bangla49.GetComponent<AudioSource>().Stop();
+            Bangla50.GetComponent<AudioSource>().Stop();
+        }
+        if (CurrentScene.name == "FruitsBangla")
+        {
+            strawberry.GetComponent<AudioSource>().Stop();
+            f2.GetComponent<AudioSource>().Pause();
+            Apple.GetComponent<AudioSource>().Stop();
+            Orange.GetComponent<AudioSource>().Stop();
+            Banana.GetComponent<AudioSource>().Stop();
+        }
 
 
-        Bangla1.GetComponent<AudioSource>().Stop();
-        Bangla2.GetComponent<AudioSource>().Stop();
-        Bangla3.GetComponent<AudioSource>().Stop();
-        Bangla4.GetComponent<AudioSource>().Stop();
-        Bangla5.GetComponent<AudioSource>().Stop();
-        Bangla6.GetComponent<AudioSource>().Stop();
-        Bangla7.GetComponent<AudioSource>().Stop();
-        Bangla8.GetComponent<AudioSource>().Stop();
-        Bangla9.GetComponent<AudioSource>().Stop();
-        Bangla10.GetComponent<AudioSource>().Stop();
-        Bangla11.GetComponent<AudioSource>().Stop();
 
-        Bangla12.GetComponent<AudioSource>().Stop();
-        Bangla13.GetComponent<AudioSource>().Stop();
-        Bangla14.GetComponent<AudioSource>().Stop();
-        Bangla15.GetComponent<AudioSource>().Stop();
-        Bangla16.GetComponent<AudioSource>().Stop();
-        Bangla17.GetComponent<AudioSource>().Stop();
-        Bangla18.GetComponent<AudioSource>().Stop();
-        Bangla19.GetComponent<AudioSource>().Stop();
-        Bangla20.GetComponent<AudioSource>().Stop();
-        Bangla21.GetComponent<AudioSource>().Stop();
-        Bangla22.GetComponent<AudioSource>().Stop();
-        Bangla23.GetComponent<AudioSource>().Stop();
-        Bangla24.GetComponent<AudioSource>().Stop();
-        Bangla25.GetComponent<AudioSource>().Stop();
-        Bangla26.GetComponent<AudioSource>().Stop();
-        Bangla27.GetComponent<AudioSource>().Stop();
-        Bangla28.GetComponent<AudioSource>().Stop();
-        Bangla29.GetComponent<AudioSource>().Stop();
-        Bangla30.GetComponent<AudioSource>().Stop();
-        Bangla31.GetComponent<AudioSource>().Stop();
-        Bangla32.GetComponent<AudioSource>().Stop();
-        Bangla33.GetComponent<AudioSource>().Stop();
-        Bangla34.GetComponent<AudioSource>().Stop();
-        Bangla35.GetComponent<AudioSource>().Stop();
-        Bangla36.GetComponent<AudioSource>().Stop();
-        Bangla37.GetComponent<AudioSource>().Stop();
-        Bangla38.GetComponent<AudioSource>().Stop();
-        Bangla39.GetComponent<AudioSource>().Stop();
-        Bangla40.GetComponent<AudioSource>().Stop();
-        Bangla41.GetComponent<AudioSource>().Stop();
-        Bangla42.GetComponent<AudioSource>().Stop();
-        Bangla43.GetComponent<AudioSource>().Stop();
-        Bangla44.GetComponent<AudioSource>().Stop();
-        Bangla45.GetComponent<AudioSource>().Stop();
-        Bangla46.GetComponent<AudioSource>().Stop();
-        Bangla47.GetComponent<AudioSource>().Stop();
-        Bangla48.GetComponent<AudioSource>().Stop();
-        Bangla49.GetComponent<AudioSource>().Stop();
-        Bangla50.GetComponent<AudioSource>().Stop();
 
-        strawberry.GetComponent<AudioSource>().Stop();
-        Mango.GetComponent<AudioSource>().Stop();
-        Apple.GetComponent<AudioSource>().Stop();
-        Orange.GetComponent<AudioSource>().Stop();
-        Banana.GetComponent<AudioSource>().Stop();
+    
     }
 
     #endregion // PROTECTED_METHODS
