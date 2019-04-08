@@ -112,6 +112,15 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     public GameObject Banana;
     public GameObject Orange;
 
+    public GameObject AppleEng;
+    public GameObject f2Eng;
+    public GameObject strawberryEng;
+    public GameObject BananaEng;
+    public GameObject OrangeEng;
+
+
+
+
     public Scene CurrentScene;
 
 
@@ -203,8 +212,14 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         strawberry = GameObject.Find("strawberry");
         Banana = GameObject.Find("Banana");
         f2 = GameObject.Find("mango");
+        AppleEng = GameObject.Find("Apple");
+        OrangeEng = GameObject.Find("Orange");
+        strawberryEng = GameObject.Find("strawberry");
+        BananaEng = GameObject.Find("Banana");
+        f2Eng = GameObject.Find("mango");
 
-        
+
+
 
 
     }
@@ -623,9 +638,30 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
            Apple.GetComponent<AudioSource>().Play();
         }
 
+        if (mTrackableBehaviour.Trackable.Name == "f1")
+        {
+            strawberryEng.GetComponent<AudioSource>().Play();
+        }
+        if (mTrackableBehaviour.Trackable.Name == "f2")
+        {
+            BananaEng.GetComponent<AudioSource>().Play();
+        }
+        if (mTrackableBehaviour.Trackable.Name == "f3")
+        {
+            OrangeEng.GetComponent<AudioSource>().Play();
+        }
+        if (mTrackableBehaviour.Trackable.Name == "f4")
+        {
+            f2Eng.GetComponent<AudioSource>().Play();
+        }
+        if (mTrackableBehaviour.Trackable.Name == "f5")
+        {
+            AppleEng.GetComponent<AudioSource>().Play();
+        }
 
 
-       
+
+
 
 
 
@@ -743,11 +779,19 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             Orange.GetComponent<AudioSource>().Stop();
             Banana.GetComponent<AudioSource>().Stop();
         }
+        if (CurrentScene.name == "FruitsEnglish")
+        {
+            strawberryEng.GetComponent<AudioSource>().Stop();
+            f2Eng.GetComponent<AudioSource>().Pause();
+            AppleEng.GetComponent<AudioSource>().Stop();
+            OrangeEng.GetComponent<AudioSource>().Stop();
+            BananaEng.GetComponent<AudioSource>().Stop();
+        }
 
 
 
 
-    
+
     }
 
     #endregion // PROTECTED_METHODS
