@@ -148,7 +148,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         o = GameObject.Find("O");
         p = GameObject.Find("P");
         q = GameObject.Find("Q");
-        r = GameObject.Find("r");
+        r = GameObject.Find("R");
         s = GameObject.Find("S");
         t = GameObject.Find("T");
         u = GameObject.Find("U");
@@ -570,41 +570,45 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         {
             Bangla38.GetComponent<AudioSource>().Play();
         }
-        if (mTrackableBehaviour.Trackable.Name == "B-29")
+        if (mTrackableBehaviour.Trackable.Name == "B-28")
         {
             Bangla39.GetComponent<AudioSource>().Play();
         }
-        if (mTrackableBehaviour.Trackable.Name == "B-30")
+        if (mTrackableBehaviour.Trackable.Name == "B-29")
         {
             Bangla40.GetComponent<AudioSource>().Play();
         }
-        if (mTrackableBehaviour.Trackable.Name == "B-31")
+        if (mTrackableBehaviour.Trackable.Name == "B-30")
         {
             Bangla41.GetComponent<AudioSource>().Play();
         }
-        if (mTrackableBehaviour.Trackable.Name == "B-32")
+        if (mTrackableBehaviour.Trackable.Name == "B-31")
         {
             Bangla42.GetComponent<AudioSource>().Play();
         }
-        if (mTrackableBehaviour.Trackable.Name == "B-33")
+        if (mTrackableBehaviour.Trackable.Name == "B-32")
         {
             Bangla43.GetComponent<AudioSource>().Play();
         }
-        if (mTrackableBehaviour.Trackable.Name == "B-34")
+        if (mTrackableBehaviour.Trackable.Name == "B-33")
         {
             Bangla44.GetComponent<AudioSource>().Play();
         }
-        if (mTrackableBehaviour.Trackable.Name == "B-35")
+        if (mTrackableBehaviour.Trackable.Name == "B-34")
         {
             Bangla45.GetComponent<AudioSource>().Play();
         }
-        if (mTrackableBehaviour.Trackable.Name == "B-36")
+        if (mTrackableBehaviour.Trackable.Name == "B-35")
         {
             Bangla46.GetComponent<AudioSource>().Play();
         }
-        if (mTrackableBehaviour.Trackable.Name == "B-37")
+        if (mTrackableBehaviour.Trackable.Name == "B-36")
         {
             Bangla47.GetComponent<AudioSource>().Play();
+        }
+        if (mTrackableBehaviour.Trackable.Name == "B-37")
+        {
+            Bangla48.GetComponent<AudioSource>().Play();
         }
         if (mTrackableBehaviour.Trackable.Name == "B-38")
         {
@@ -688,7 +692,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         foreach (var component in canvasComponents)
             component.enabled = false;
 
-        if (CurrentScene.name == "AtoZ")
+        if (CurrentScene.name == "EnglishAlpha")
         {
             a.GetComponent<AudioSource>().Stop();
             b.GetComponent<AudioSource>().Stop();
@@ -717,7 +721,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             y.GetComponent<AudioSource>().Stop();
             z.GetComponent<AudioSource>().Stop();
         }
-        if (CurrentScene.name == "BanglaAlphabets")
+        if (CurrentScene.name == "BanglaAlpha")
         {
             Bangla1.GetComponent<AudioSource>().Stop();
             Bangla1.GetComponent<AudioSource>().Stop();
@@ -771,7 +775,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             Bangla49.GetComponent<AudioSource>().Stop();
             Bangla50.GetComponent<AudioSource>().Stop();
         }
-        if (CurrentScene.name == "FruitsBangla")
+        if (CurrentScene.name == "BanglaFruit")
         {
             strawberry.GetComponent<AudioSource>().Stop();
             f2.GetComponent<AudioSource>().Pause();
@@ -779,7 +783,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             Orange.GetComponent<AudioSource>().Stop();
             Banana.GetComponent<AudioSource>().Stop();
         }
-        if (CurrentScene.name == "FruitsEnglish")
+        if (CurrentScene.name == "EnglishFruit")
         {
             strawberryEng.GetComponent<AudioSource>().Stop();
             f2Eng.GetComponent<AudioSource>().Pause();

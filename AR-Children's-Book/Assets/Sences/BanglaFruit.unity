@@ -600,7 +600,94 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  A: 0
+  a: {fileID: 0}
+  b: {fileID: 0}
+  c: {fileID: 0}
+  d: {fileID: 0}
+  e: {fileID: 0}
+  f: {fileID: 0}
+  g: {fileID: 0}
+  h: {fileID: 0}
+  i: {fileID: 0}
+  j: {fileID: 0}
+  k: {fileID: 0}
+  l: {fileID: 0}
+  m: {fileID: 0}
+  n: {fileID: 0}
+  o: {fileID: 0}
+  p: {fileID: 0}
+  q: {fileID: 0}
+  r: {fileID: 0}
+  s: {fileID: 0}
+  t: {fileID: 0}
+  u: {fileID: 0}
+  v: {fileID: 0}
+  w: {fileID: 0}
+  x: {fileID: 0}
+  y: {fileID: 0}
+  z: {fileID: 0}
+  Bangla1: {fileID: 0}
+  Bangla2: {fileID: 0}
+  Bangla3: {fileID: 0}
+  Bangla4: {fileID: 0}
+  Bangla5: {fileID: 0}
+  Bangla6: {fileID: 0}
+  Bangla7: {fileID: 0}
+  Bangla8: {fileID: 0}
+  Bangla9: {fileID: 0}
+  Bangla10: {fileID: 0}
+  Bangla11: {fileID: 0}
+  Bangla12: {fileID: 0}
+  Bangla13: {fileID: 0}
+  Bangla14: {fileID: 0}
+  Bangla15: {fileID: 0}
+  Bangla16: {fileID: 0}
+  Bangla17: {fileID: 0}
+  Bangla18: {fileID: 0}
+  Bangla19: {fileID: 0}
+  Bangla20: {fileID: 0}
+  Bangla21: {fileID: 0}
+  Bangla22: {fileID: 0}
+  Bangla23: {fileID: 0}
+  Bangla24: {fileID: 0}
+  Bangla25: {fileID: 0}
+  Bangla26: {fileID: 0}
+  Bangla27: {fileID: 0}
+  Bangla28: {fileID: 0}
+  Bangla29: {fileID: 0}
+  Bangla30: {fileID: 0}
+  Bangla31: {fileID: 0}
+  Bangla32: {fileID: 0}
+  Bangla33: {fileID: 0}
+  Bangla34: {fileID: 0}
+  Bangla35: {fileID: 0}
+  Bangla36: {fileID: 0}
+  Bangla37: {fileID: 0}
+  Bangla38: {fileID: 0}
+  Bangla39: {fileID: 0}
+  Bangla40: {fileID: 0}
+  Bangla41: {fileID: 0}
+  Bangla42: {fileID: 0}
+  Bangla43: {fileID: 0}
+  Bangla44: {fileID: 0}
+  Bangla45: {fileID: 0}
+  Bangla46: {fileID: 0}
+  Bangla47: {fileID: 0}
+  Bangla48: {fileID: 0}
+  Bangla49: {fileID: 0}
+  Bangla50: {fileID: 0}
+  Apple: {fileID: 0}
+  f2: {fileID: 0}
+  strawberry: {fileID: 0}
+  Banana: {fileID: 0}
+  Orange: {fileID: 0}
+  AppleEng: {fileID: 0}
+  f2Eng: {fileID: 0}
+  strawberryEng: {fileID: 0}
+  BananaEng: {fileID: 0}
+  OrangeEng: {fileID: 0}
+  CurrentScene:
+    m_Handle: 0
 --- !u!114 &228399448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -726,7 +813,94 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  A: 0
+  a: {fileID: 0}
+  b: {fileID: 0}
+  c: {fileID: 0}
+  d: {fileID: 0}
+  e: {fileID: 0}
+  f: {fileID: 0}
+  g: {fileID: 0}
+  h: {fileID: 0}
+  i: {fileID: 0}
+  j: {fileID: 0}
+  k: {fileID: 0}
+  l: {fileID: 0}
+  m: {fileID: 0}
+  n: {fileID: 0}
+  o: {fileID: 0}
+  p: {fileID: 0}
+  q: {fileID: 0}
+  r: {fileID: 0}
+  s: {fileID: 0}
+  t: {fileID: 0}
+  u: {fileID: 0}
+  v: {fileID: 0}
+  w: {fileID: 0}
+  x: {fileID: 0}
+  y: {fileID: 0}
+  z: {fileID: 0}
+  Bangla1: {fileID: 0}
+  Bangla2: {fileID: 0}
+  Bangla3: {fileID: 0}
+  Bangla4: {fileID: 0}
+  Bangla5: {fileID: 0}
+  Bangla6: {fileID: 0}
+  Bangla7: {fileID: 0}
+  Bangla8: {fileID: 0}
+  Bangla9: {fileID: 0}
+  Bangla10: {fileID: 0}
+  Bangla11: {fileID: 0}
+  Bangla12: {fileID: 0}
+  Bangla13: {fileID: 0}
+  Bangla14: {fileID: 0}
+  Bangla15: {fileID: 0}
+  Bangla16: {fileID: 0}
+  Bangla17: {fileID: 0}
+  Bangla18: {fileID: 0}
+  Bangla19: {fileID: 0}
+  Bangla20: {fileID: 0}
+  Bangla21: {fileID: 0}
+  Bangla22: {fileID: 0}
+  Bangla23: {fileID: 0}
+  Bangla24: {fileID: 0}
+  Bangla25: {fileID: 0}
+  Bangla26: {fileID: 0}
+  Bangla27: {fileID: 0}
+  Bangla28: {fileID: 0}
+  Bangla29: {fileID: 0}
+  Bangla30: {fileID: 0}
+  Bangla31: {fileID: 0}
+  Bangla32: {fileID: 0}
+  Bangla33: {fileID: 0}
+  Bangla34: {fileID: 0}
+  Bangla35: {fileID: 0}
+  Bangla36: {fileID: 0}
+  Bangla37: {fileID: 0}
+  Bangla38: {fileID: 0}
+  Bangla39: {fileID: 0}
+  Bangla40: {fileID: 0}
+  Bangla41: {fileID: 0}
+  Bangla42: {fileID: 0}
+  Bangla43: {fileID: 0}
+  Bangla44: {fileID: 0}
+  Bangla45: {fileID: 0}
+  Bangla46: {fileID: 0}
+  Bangla47: {fileID: 0}
+  Bangla48: {fileID: 0}
+  Bangla49: {fileID: 0}
+  Bangla50: {fileID: 0}
+  Apple: {fileID: 0}
+  f2: {fileID: 0}
+  strawberry: {fileID: 0}
+  Banana: {fileID: 0}
+  Orange: {fileID: 0}
+  AppleEng: {fileID: 0}
+  f2Eng: {fileID: 0}
+  strawberryEng: {fileID: 0}
+  BananaEng: {fileID: 0}
+  OrangeEng: {fileID: 0}
+  CurrentScene:
+    m_Handle: 0
 --- !u!114 &285148323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1302,7 +1476,94 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  A: 0
+  a: {fileID: 0}
+  b: {fileID: 0}
+  c: {fileID: 0}
+  d: {fileID: 0}
+  e: {fileID: 0}
+  f: {fileID: 0}
+  g: {fileID: 0}
+  h: {fileID: 0}
+  i: {fileID: 0}
+  j: {fileID: 0}
+  k: {fileID: 0}
+  l: {fileID: 0}
+  m: {fileID: 0}
+  n: {fileID: 0}
+  o: {fileID: 0}
+  p: {fileID: 0}
+  q: {fileID: 0}
+  r: {fileID: 0}
+  s: {fileID: 0}
+  t: {fileID: 0}
+  u: {fileID: 0}
+  v: {fileID: 0}
+  w: {fileID: 0}
+  x: {fileID: 0}
+  y: {fileID: 0}
+  z: {fileID: 0}
+  Bangla1: {fileID: 0}
+  Bangla2: {fileID: 0}
+  Bangla3: {fileID: 0}
+  Bangla4: {fileID: 0}
+  Bangla5: {fileID: 0}
+  Bangla6: {fileID: 0}
+  Bangla7: {fileID: 0}
+  Bangla8: {fileID: 0}
+  Bangla9: {fileID: 0}
+  Bangla10: {fileID: 0}
+  Bangla11: {fileID: 0}
+  Bangla12: {fileID: 0}
+  Bangla13: {fileID: 0}
+  Bangla14: {fileID: 0}
+  Bangla15: {fileID: 0}
+  Bangla16: {fileID: 0}
+  Bangla17: {fileID: 0}
+  Bangla18: {fileID: 0}
+  Bangla19: {fileID: 0}
+  Bangla20: {fileID: 0}
+  Bangla21: {fileID: 0}
+  Bangla22: {fileID: 0}
+  Bangla23: {fileID: 0}
+  Bangla24: {fileID: 0}
+  Bangla25: {fileID: 0}
+  Bangla26: {fileID: 0}
+  Bangla27: {fileID: 0}
+  Bangla28: {fileID: 0}
+  Bangla29: {fileID: 0}
+  Bangla30: {fileID: 0}
+  Bangla31: {fileID: 0}
+  Bangla32: {fileID: 0}
+  Bangla33: {fileID: 0}
+  Bangla34: {fileID: 0}
+  Bangla35: {fileID: 0}
+  Bangla36: {fileID: 0}
+  Bangla37: {fileID: 0}
+  Bangla38: {fileID: 0}
+  Bangla39: {fileID: 0}
+  Bangla40: {fileID: 0}
+  Bangla41: {fileID: 0}
+  Bangla42: {fileID: 0}
+  Bangla43: {fileID: 0}
+  Bangla44: {fileID: 0}
+  Bangla45: {fileID: 0}
+  Bangla46: {fileID: 0}
+  Bangla47: {fileID: 0}
+  Bangla48: {fileID: 0}
+  Bangla49: {fileID: 0}
+  Bangla50: {fileID: 0}
+  Apple: {fileID: 0}
+  f2: {fileID: 0}
+  strawberry: {fileID: 0}
+  Banana: {fileID: 0}
+  Orange: {fileID: 0}
+  AppleEng: {fileID: 0}
+  f2Eng: {fileID: 0}
+  strawberryEng: {fileID: 0}
+  BananaEng: {fileID: 0}
+  OrangeEng: {fileID: 0}
+  CurrentScene:
+    m_Handle: 0
 --- !u!114 &1037199106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1395,15 +1656,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 3b7958974b8ba96408edc8bb30741853, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 3b7958974b8ba96408edc8bb30741853, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 3b7958974b8ba96408edc8bb30741853, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b7958974b8ba96408edc8bb30741853, type: 3}
@@ -1515,6 +1776,105 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1156584176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1156584180}
+  - component: {fileID: 1156584179}
+  - component: {fileID: 1156584178}
+  - component: {fileID: 1156584177}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1156584177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156584176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1156584178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156584176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!223 &1156584179
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156584176}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1156584180
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156584176}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1755668301}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!21 &1262537828
 Material:
   serializedVersion: 6
@@ -1872,6 +2232,212 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1001 &1755668300
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1156584180}
+    m_Modifications:
+    - target: {fileID: 5404287212875759353, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_Name
+      value: main menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 326
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -204
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -712
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -460
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759352, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759350, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759350, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404287212875759350, guid: 695e0f53270f02f4d950c22f4066e6be,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 695e0f53270f02f4d950c22f4066e6be, type: 3}
+--- !u!224 &1755668301 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4468775366705568198, guid: 695e0f53270f02f4d950c22f4066e6be,
+    type: 3}
+  m_PrefabInstance: {fileID: 1755668300}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1821609149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1821609152}
+  - component: {fileID: 1821609151}
+  - component: {fileID: 1821609150}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1821609150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821609149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1821609151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821609149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1821609152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821609149}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1880373018
 Mesh:
   m_ObjectHideFlags: 0
@@ -2122,7 +2688,94 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  A: 0
+  a: {fileID: 0}
+  b: {fileID: 0}
+  c: {fileID: 0}
+  d: {fileID: 0}
+  e: {fileID: 0}
+  f: {fileID: 0}
+  g: {fileID: 0}
+  h: {fileID: 0}
+  i: {fileID: 0}
+  j: {fileID: 0}
+  k: {fileID: 0}
+  l: {fileID: 0}
+  m: {fileID: 0}
+  n: {fileID: 0}
+  o: {fileID: 0}
+  p: {fileID: 0}
+  q: {fileID: 0}
+  r: {fileID: 0}
+  s: {fileID: 0}
+  t: {fileID: 0}
+  u: {fileID: 0}
+  v: {fileID: 0}
+  w: {fileID: 0}
+  x: {fileID: 0}
+  y: {fileID: 0}
+  z: {fileID: 0}
+  Bangla1: {fileID: 0}
+  Bangla2: {fileID: 0}
+  Bangla3: {fileID: 0}
+  Bangla4: {fileID: 0}
+  Bangla5: {fileID: 0}
+  Bangla6: {fileID: 0}
+  Bangla7: {fileID: 0}
+  Bangla8: {fileID: 0}
+  Bangla9: {fileID: 0}
+  Bangla10: {fileID: 0}
+  Bangla11: {fileID: 0}
+  Bangla12: {fileID: 0}
+  Bangla13: {fileID: 0}
+  Bangla14: {fileID: 0}
+  Bangla15: {fileID: 0}
+  Bangla16: {fileID: 0}
+  Bangla17: {fileID: 0}
+  Bangla18: {fileID: 0}
+  Bangla19: {fileID: 0}
+  Bangla20: {fileID: 0}
+  Bangla21: {fileID: 0}
+  Bangla22: {fileID: 0}
+  Bangla23: {fileID: 0}
+  Bangla24: {fileID: 0}
+  Bangla25: {fileID: 0}
+  Bangla26: {fileID: 0}
+  Bangla27: {fileID: 0}
+  Bangla28: {fileID: 0}
+  Bangla29: {fileID: 0}
+  Bangla30: {fileID: 0}
+  Bangla31: {fileID: 0}
+  Bangla32: {fileID: 0}
+  Bangla33: {fileID: 0}
+  Bangla34: {fileID: 0}
+  Bangla35: {fileID: 0}
+  Bangla36: {fileID: 0}
+  Bangla37: {fileID: 0}
+  Bangla38: {fileID: 0}
+  Bangla39: {fileID: 0}
+  Bangla40: {fileID: 0}
+  Bangla41: {fileID: 0}
+  Bangla42: {fileID: 0}
+  Bangla43: {fileID: 0}
+  Bangla44: {fileID: 0}
+  Bangla45: {fileID: 0}
+  Bangla46: {fileID: 0}
+  Bangla47: {fileID: 0}
+  Bangla48: {fileID: 0}
+  Bangla49: {fileID: 0}
+  Bangla50: {fileID: 0}
+  Apple: {fileID: 0}
+  f2: {fileID: 0}
+  strawberry: {fileID: 0}
+  Banana: {fileID: 0}
+  Orange: {fileID: 0}
+  AppleEng: {fileID: 0}
+  f2Eng: {fileID: 0}
+  strawberryEng: {fileID: 0}
+  BananaEng: {fileID: 0}
+  OrangeEng: {fileID: 0}
+  CurrentScene:
+    m_Handle: 0
 --- !u!114 &1938376117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2408,7 +3061,94 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a917f0af64a6423093132dab321c15f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  A: 0
+  a: {fileID: 0}
+  b: {fileID: 0}
+  c: {fileID: 0}
+  d: {fileID: 0}
+  e: {fileID: 0}
+  f: {fileID: 0}
+  g: {fileID: 0}
+  h: {fileID: 0}
+  i: {fileID: 0}
+  j: {fileID: 0}
+  k: {fileID: 0}
+  l: {fileID: 0}
+  m: {fileID: 0}
+  n: {fileID: 0}
+  o: {fileID: 0}
+  p: {fileID: 0}
+  q: {fileID: 0}
+  r: {fileID: 0}
+  s: {fileID: 0}
+  t: {fileID: 0}
+  u: {fileID: 0}
+  v: {fileID: 0}
+  w: {fileID: 0}
+  x: {fileID: 0}
+  y: {fileID: 0}
+  z: {fileID: 0}
+  Bangla1: {fileID: 0}
+  Bangla2: {fileID: 0}
+  Bangla3: {fileID: 0}
+  Bangla4: {fileID: 0}
+  Bangla5: {fileID: 0}
+  Bangla6: {fileID: 0}
+  Bangla7: {fileID: 0}
+  Bangla8: {fileID: 0}
+  Bangla9: {fileID: 0}
+  Bangla10: {fileID: 0}
+  Bangla11: {fileID: 0}
+  Bangla12: {fileID: 0}
+  Bangla13: {fileID: 0}
+  Bangla14: {fileID: 0}
+  Bangla15: {fileID: 0}
+  Bangla16: {fileID: 0}
+  Bangla17: {fileID: 0}
+  Bangla18: {fileID: 0}
+  Bangla19: {fileID: 0}
+  Bangla20: {fileID: 0}
+  Bangla21: {fileID: 0}
+  Bangla22: {fileID: 0}
+  Bangla23: {fileID: 0}
+  Bangla24: {fileID: 0}
+  Bangla25: {fileID: 0}
+  Bangla26: {fileID: 0}
+  Bangla27: {fileID: 0}
+  Bangla28: {fileID: 0}
+  Bangla29: {fileID: 0}
+  Bangla30: {fileID: 0}
+  Bangla31: {fileID: 0}
+  Bangla32: {fileID: 0}
+  Bangla33: {fileID: 0}
+  Bangla34: {fileID: 0}
+  Bangla35: {fileID: 0}
+  Bangla36: {fileID: 0}
+  Bangla37: {fileID: 0}
+  Bangla38: {fileID: 0}
+  Bangla39: {fileID: 0}
+  Bangla40: {fileID: 0}
+  Bangla41: {fileID: 0}
+  Bangla42: {fileID: 0}
+  Bangla43: {fileID: 0}
+  Bangla44: {fileID: 0}
+  Bangla45: {fileID: 0}
+  Bangla46: {fileID: 0}
+  Bangla47: {fileID: 0}
+  Bangla48: {fileID: 0}
+  Bangla49: {fileID: 0}
+  Bangla50: {fileID: 0}
+  Apple: {fileID: 0}
+  f2: {fileID: 0}
+  strawberry: {fileID: 0}
+  Banana: {fileID: 0}
+  Orange: {fileID: 0}
+  AppleEng: {fileID: 0}
+  f2Eng: {fileID: 0}
+  strawberryEng: {fileID: 0}
+  BananaEng: {fileID: 0}
+  OrangeEng: {fileID: 0}
+  CurrentScene:
+    m_Handle: 0
 --- !u!114 &1960542284
 MonoBehaviour:
   m_ObjectHideFlags: 0
